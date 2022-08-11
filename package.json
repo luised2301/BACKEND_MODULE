@@ -1,0 +1,23 @@
+{
+  "name": "modulo-backend",
+  "version": "1.0.0",
+  "description": "mi primer proyecto de node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ejercicio2": "node ejerciciosS2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luised2301/BACKEND_MODULE.git"
+  },
+  "author": "luised2301@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luised2301/BACKEND_MODULE/issues"
+  },
+  "homepage": "https://github.com/luised2301/BACKEND_MODULE#readme",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}

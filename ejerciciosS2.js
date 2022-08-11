@@ -38,22 +38,18 @@
 //? }
 
 const nombres = ["Luis","Rodolfo", "Araceli", "Brisa", "Eduardo", "Gio", "Jose", "Luis", "Marco", "Mariana", "Pete", "Sebastian", "Sofia"]
-
 nameDetails={};
-
-function transformarNombres (array, object) {
-    obj={}
-    array.forEach((cv,i,) => {
-        object[i]={
+function transformarNombres (array) {
+    const emptyObject={}
+    array.forEach((cv,i) => {
+        emptyObject[i]={
             name:cv,
             length: cv.length,
             isGreaterThanFour: (cv.length>4)
-        }
-        return obj+object[i]
+        }    
     });
-    return object
+    return emptyObject
 };
-
-transformarNombres(nombres, nameDetails)
-console.log("nameDetails",nameDetails)
+nameDetails = transformarNombres(nombres)
+console.log("nameDetails:",nameDetails)
 
